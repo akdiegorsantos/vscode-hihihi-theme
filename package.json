@@ -1,0 +1,48 @@
+{
+  "name": "vscode-hihihi-theme",
+  "displayName": "hihihi",
+  "description": "Born out of a love for rose gold. Modern. Classic. Iconic. For you.",
+  "version": "0.1.0",
+  "publisher": "akdiegorsantos",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#f1beb0",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akdiegorsantos/vscode-hihihi-theme.git"
+  },
+  "homepage": "https://github.com/akdiegorsantos/vscode-hihihi-theme/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/akdiegorsantos/vscode-hihihi-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "scripts": {
+    "bundle": "vsce package",
+    "publish": "vsce publish"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Theme",
+    "Dark Theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "hihihi",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hihihi-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.81.1"
+  }
+}
